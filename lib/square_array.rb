@@ -3,6 +3,7 @@
 def square_array(array)
   counter = 0
   length = array.length
-end
+  while counter < length do
+    array[counter] = array[counter] ** 2
 end
 
