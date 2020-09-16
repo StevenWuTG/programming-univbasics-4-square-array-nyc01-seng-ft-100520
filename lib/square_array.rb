@@ -8,5 +8,5 @@ def square_array(array)
     new_array.push(array[counter])
     counter += 1
   end
-  new_array
+  puts new_array
 end
