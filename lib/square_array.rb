@@ -10,3 +10,9 @@ numbers = [1,2,3]
   
 
 # end
+
+def square_array(array)
+  while array.length.times { |index|
+  array[index] = array[index] ** 2
+  }
+end
