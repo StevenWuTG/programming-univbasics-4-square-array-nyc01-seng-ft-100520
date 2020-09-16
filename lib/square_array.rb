@@ -2,9 +2,8 @@
 
 def square_array(array)
   length = array.length
-  while array[counter] do
-    array[counter] = array[counter] ** 2
-    counter += 1
-  end
+  length.times do |index|
+  array[index] = array[index] ** 2
+end
 end
 
